@@ -1,0 +1,36 @@
+sleep = 30 # time in seconds to sleep between aws calls
+
+
+[metrics]
+
+# any cloudwatch metrics that you want to track in StatHat
+# you can find a list of these with `aws cloudwatch list-metrics`
+# note that some don't update every minute (like the sqs one).
+
+[metrics.dbconns]
+namespace = "AWS/RDS"
+name = "DatabaseConnections"
+stat_name = "aws - rds - database connections"
+
+[metrics.dbcpu]
+namespace = "AWS/RDS"
+name = "CPUUtilization"
+stat_name = "aws - rds - cpu utilization"
+
+[metrics.dbcpustatd]
+namespace = "AWS/RDS"
+name = "CPUUtilization"
+dimension = "DBInstanceIdentifier"
+dimvalue = "statd"
+stat_name = "aws - rds - cpu utilization (statd)"
+
+[metrics.sqsvis_buckets]
+namespace = "AWS/SQS"
+name = "ApproximateNumberOfMessagesVisible"
+dimension = "QueueName"
+dimvalue = "buckets"
+stat_name = "aws - sqs - number of visible messages"
+
+[stathat]
+ezkey = "yourezkey"
+

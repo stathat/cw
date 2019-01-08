@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "hewIjufCLk7rTOrkGwDqrxVh9m8=",
+			"path": "github.com/aws/aws-sdk-go/aws",
+			"revision": "8234000fff968de811646c75b200b0c713f800ec",
+			"revisionTime": "2018-12-21T22:39:25Z"
+		},
+		{
+			"checksumSHA1": "rfEGeim4zz2FVqTxFvf6HUuqOZc=",
+			"path": "github.com/aws/aws-sdk-go/aws/session",
+			"revision": "8234000fff968de811646c75b200b0c713f800ec",
+			"revisionTime": "2018-12-21T22:39:25Z"
+		},
+		{
+			"checksumSHA1": "wbEFJ+KCAOO3yzyyCS3kLmnkh18=",
+			"path": "github.com/aws/aws-sdk-go/service/cloudwatch",
+			"revision": "8234000fff968de811646c75b200b0c713f800ec",
+			"revisionTime": "2018-12-21T22:39:25Z"
+		},
+		{
+			"checksumSHA1": "NzzMfGmmPoTGVwLZDkj3FXXDvCA=",
+			"path": "github.com/pelletier/go-toml",
+			"revision": "27c6b39a135b7dc87a14afb068809132fb7a9a8f",
+			"revisionTime": "2018-11-24T00:27:27Z"
+		},
+		{
+			"checksumSHA1": "YeBq0fA5AKW4A5g0XXC0gSoIlfk=",
+			"path": "github.com/stathat/go",
+			"revision": "74669b9f388d9d788c97399a0824adbfee78400e",
+			"revisionTime": "2016-07-15T15:55:40Z"
+		}
+	],
+	"rootPath": "cw"
+}
